@@ -38,7 +38,7 @@ mysql:
   db: sk-admin
 
 trace:
-  host: 106.15.233.99
+  host: 114.67.98.210
   port: 9411
   url: /api/v2/spans
 
