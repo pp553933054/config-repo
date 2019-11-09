@@ -14,7 +14,7 @@ service:
   CoreReadRedisGoroutineNum: 10
   CoreWriteRedisGoroutineNum: 10
   CoreHandleGoroutineNum int: 10
-  
+
 redis:
   host: localhost
   password: 6378
@@ -31,7 +31,7 @@ http:
   host: localhost
 
 mysql:
-  host: 106.15.233.99
+  host: 114.67.98.210
   port: 3396
   user: root
   pwd: root_test
