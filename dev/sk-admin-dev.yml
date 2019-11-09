@@ -13,8 +13,13 @@ service:
   AppReadFromHandleGoroutineNum: 10
   CoreReadRedisGoroutineNum: 10
   CoreWriteRedisGoroutineNum: 10
-  CoreHandleGoroutineNum int: 10
-
+  CoreHandleGoroutineNum: 10
+  AppWaitResultTimeout: 1000
+  CoreWaitResultTimeout: 1000
+  MaxRequestWaitTimeout: 1000
+  SendToWriteChanTimeout: 1000
+  SendToHandleChanTimeout: 1000
+  TokenPassWd: go
 redis:
   host: localhost
   password: 6378
