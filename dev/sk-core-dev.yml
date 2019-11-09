@@ -35,18 +35,15 @@ etcd:
 http:
   host: localhost
 
+
 mysql:
-  host: 106.15.233.99
+  host: 114.67.98.210
   port: 3396
   user: root
   pwd: root_test
-  db: user
+  db: sk-admin
 
 trace:
-  host: 106.15.233.99
+  host: 114.67.98.210
   port: 9411
   url: /api/v2/spans
-
-
-
-
