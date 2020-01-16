@@ -21,7 +21,7 @@ service:
   SendToHandleChanTimeout: 10000
   TokenPassWd: go
 redis:
-  host: localhost:6378
+  host: localhost:6379
   password: 6378
   db: 0
   Proxy2layerQueueName: proxy2layer
