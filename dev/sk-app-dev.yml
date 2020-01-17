@@ -9,11 +9,11 @@ service:
   read_proxy2layer_goroutine_num: 100
   cookie_secretkey: zxfyazzaa
   refer_whitelist: test,test1
-  AppWriteToHandleGoroutineNum: 2
-  AppReadFromHandleGoroutineNum: 2
-  CoreReadRedisGoroutineNum: 2
-  CoreWriteRedisGoroutineNum: 2
-  CoreHandleGoroutineNum: 2
+  AppWriteToHandleGoroutineNum: 10
+  AppReadFromHandleGoroutineNum: 10
+  CoreReadRedisGoroutineNum: 10
+  CoreWriteRedisGoroutineNum: 10
+  CoreHandleGoroutineNum: 10
   AppWaitResultTimeout: 10000
   CoreWaitResultTimeout: 10000
   MaxRequestWaitTimeout: 10000
