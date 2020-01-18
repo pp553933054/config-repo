@@ -14,7 +14,7 @@ service:
   CoreReadRedisGoroutineNum: 10
   CoreWriteRedisGoroutineNum: 10
   CoreHandleGoroutineNum: 10
-  AppWaitResultTimeout: 200
+  AppWaitResultTimeout: 400
   CoreWaitResultTimeout: 200
   MaxRequestWaitTimeout: 200
   SendToWriteChanTimeout: 200
