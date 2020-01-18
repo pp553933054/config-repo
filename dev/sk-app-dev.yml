@@ -14,11 +14,11 @@ service:
   CoreReadRedisGoroutineNum: 10
   CoreWriteRedisGoroutineNum: 10
   CoreHandleGoroutineNum: 10
-  AppWaitResultTimeout: 100
-  CoreWaitResultTimeout: 100
-  MaxRequestWaitTimeout: 100
-  SendToWriteChanTimeout: 100
-  SendToHandleChanTimeout: 100
+  AppWaitResultTimeout: 200
+  CoreWaitResultTimeout: 200
+  MaxRequestWaitTimeout: 200
+  SendToWriteChanTimeout: 200
+  SendToHandleChanTimeout: 200
   TokenPassWd: go
 
 redis:
