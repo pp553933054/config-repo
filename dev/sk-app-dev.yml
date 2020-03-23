@@ -23,7 +23,7 @@ service:
 
 redis:
   host: 39.98.179.73:6379
-  password: 6378
+  password: 082203
   db: 0
   Proxy2layerQueueName: proxy2layer
   Layer2proxyQueueName: Layer2proxy
