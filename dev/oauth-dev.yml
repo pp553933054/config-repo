@@ -24,7 +24,7 @@ etcd:
   product_key: zxfyazzaa
 
 http:
-  host: localhost
+  host: 114.67.98.210
 
 mysql:
   host: 114.67.98.210
