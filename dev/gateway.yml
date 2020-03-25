@@ -2,11 +2,9 @@
 auth:
   permit-all:
     -
-      /oauth/login/**
+      /oauth/**
     -
-      /notice/**
-    -
-      /user/api/external/**
+      /string/**
 
 redis:
   host: localhost
