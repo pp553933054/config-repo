@@ -15,10 +15,10 @@ service:
   CoreWriteRedisGoroutineNum: 10
   CoreHandleGoroutineNum: 10
   AppWaitResultTimeout: 400
-  CoreWaitResultTimeout: 200
-  MaxRequestWaitTimeout: 200
-  SendToWriteChanTimeout: 200
-  SendToHandleChanTimeout: 200
+  CoreWaitResultTimeout: 500
+  MaxRequestWaitTimeout: 500
+  SendToWriteChanTimeout: 500
+  SendToHandleChanTimeout: 500
   TokenPassWd: go
 
 redis:
