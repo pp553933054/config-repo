@@ -14,11 +14,11 @@ service:
   CoreReadRedisGoroutineNum: 10
   CoreWriteRedisGoroutineNum: 10
   CoreHandleGoroutineNum: 20
-  AppWaitResultTimeout: 200
-  CoreWaitResultTimeout: 200
-  MaxRequestWaitTimeout: 100
-  SendToWriteChanTimeout: 100
-  SendToHandleChanTimeout: 100
+  AppWaitResultTimeout: 500
+  CoreWaitResultTimeout: 500
+  MaxRequestWaitTimeout: 500
+  SendToWriteChanTimeout: 500
+  SendToHandleChanTimeout: 500
   TokenPassWd: go
 redis:
   host: 39.98.179.73:6379
