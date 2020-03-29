@@ -20,7 +20,11 @@ service:
   SendToWriteChanTimeout: 500
   SendToHandleChanTimeout: 500
   TokenPassWd: go
-
+  AccessLimitConf:
+        IPSecAccessLimit: 1000000
+        UserSecAccessLimit: 1000000
+        IPMinAccessLimit: 10000000
+        UserMinAccessLimit: 10000000
 redis:
   host: 39.98.179.73:6379
   password: 082203
