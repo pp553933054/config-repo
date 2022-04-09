@@ -13,7 +13,7 @@ service:
 
 redis:
   host: localhost
-  password: 6378
+#  password: 6378
   db: 0
   proxy2layer_queue_name: name
   ip_black_list_hash: 12
@@ -24,17 +24,17 @@ etcd:
   product_key: zxfyazzaa
 
 http:
-  host: 114.67.98.210
+  host: localhost
 
 mysql:
-  host: 114.67.98.210
+  host: localhost
   port: 3396
   user: root
-  pwd: root_test
+  pwd: szht
   db: user
 
 trace:
-  host: 114.67.98.210
+  host: localhost
   port: 9411
   url: /api/v2/spans
 
